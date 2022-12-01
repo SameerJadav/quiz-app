@@ -101,7 +101,22 @@ choices.forEach((choice) => {
     const selectedChoice = e.target;
     const selectedAnswer = selectedChoice.dataset["number"];
 
-    getNewQuestion();
+    // By default the applied class would be incorrect
+    // If slectedAnswer is correct then apply correct class
+    let classToApply = "incorrect";
+    if (selectedAnswer == currentQuestion.answer) {
+      classToApply = "correct";
+    }
+
+    // Getting the parent element if selectedChoice(.options)
+    // Adding classTOApply
+    selectedChoice.parentElement.classList.add(classToApply);
+
+    // Wait for 1000ms before removing the class and getting a new question
+    setTimeout(() => {
+      selectedChoice.parentElement.classList.remove(classToApply);
+      getNewQuestion();
+    }, 1000);
   });
 });
 

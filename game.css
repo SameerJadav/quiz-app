@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
-  --bg: #cff09e;
-  --border: #79bd9a 2px solid;
-  --text: #000;
-  --choice-prefix: #26c2ad;
+  --bg: #f2b6c6;
+  --border: #5d8aa6 2px solid;
+  --text: #26191e;
+  --choice-prefix: #5d8aa6;
+  --incorrect: #ff4444;
+  --correct: #82ff8f;
 }
 
 html {
@@ -63,4 +65,12 @@ main {
 .choice-text {
   width: 100%;
   padding: 1.5rem;
+}
+
+.correct {
+  background-color: var(--correct);
+}
+
+.incorrect {
+  background-color: var(--incorrect);
 }
