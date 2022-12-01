@@ -4,7 +4,7 @@
   --bg: #f2b6c6;
   --border: #5d8aa6 2px solid;
   --text: #26191e;
-  --choice-prefix: #5d8aa6;
+  --blue: #5d8aa6;
   --incorrect: #ff4444;
   --correct: #82ff8f;
 }
@@ -38,7 +38,7 @@ main {
 
 .container > h1 {
   font-size: 2rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0 2rem 0;
 }
 
 .options {
@@ -59,7 +59,7 @@ main {
 .choice-prefix {
   padding: 1.5rem;
   text-align: center;
-  background-color: var(--choice-prefix);
+  background-color: var(--blue);
 }
 
 .choice-text {
@@ -73,4 +73,25 @@ main {
 
 .incorrect {
   background-color: var(--incorrect);
+}
+
+/* HUD */
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix,
+.hud-text {
+  text-align: center;
+}
+
+.hud-prefix {
+  font-size: 1.5rem;
+}
+
+.hud-text {
+  color: var(--blue);
+  font-size: 2rem;
 }
