@@ -4,10 +4,6 @@ This Quiz game asks random questions and give points on correct answers. High sc
 
 ## [Play!](https://quiz-game-sameer-jadav.netlify.app/)
 
-### Demo
-
-
-
 ### Technologies used in this web page
 
 - Semantic HTML
