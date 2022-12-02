@@ -1,26 +1,82 @@
 [
   {
-    "question": "Inside which HTML element do we put the JavaScript??",
-    "choice1": "<script>",
-    "choice2": "<javascript>",
-    "choice3": "<js>",
-    "choice4": "<scripting>",
+    "question": "When was the Playstation 3 released?",
+    "choice1": "2006",
+    "choice2": "2008",
+    "choice3": "2005",
+    "choice4": "2012",
     "answer": 1
   },
   {
-    "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-    "choice1": "<script href='xxx.js'>",
-    "choice2": "<script name='xxx.js'>",
-    "choice3": "<script src='xxx.js'>",
-    "choice4": "<script file='xxx.js'>",
+    "question": "What color does yellow and green make?",
+    "choice1": "Ocean mist",
+    "choice2": "Lime ",
+    "choice3": "Maroon",
+    "choice4": "Tangerine",
+    "answer": 2
+  },
+  {
+    "question": "who is the youngest person to receive a nobel prize?",
+    "choice1": "Tasuku Honjo",
+    "choice2": "Paul Romer",
+    "choice3": "Malala Yousafzai",
+    "choice4": "Michael Rosbash",
     "answer": 3
   },
   {
-    "question": " How do you write 'Hello World' in an alert box?",
-    "choice1": "msgBox('Hello World');",
-    "choice2": "alertBox('Hello World');",
-    "choice3": "msg('Hello World');",
-    "choice4": "alert('Hello World');",
+    "question": "MS-Word is an example of _____",
+    "choice1": "An operating system",
+    "choice2": "A processing device",
+    "choice3": "An input device",
+    "choice4": "Application software",
+    "answer": 4
+  },
+  {
+    "question": "A computer cannot 'boot' if it does not have the _____",
+    "choice1": "Operating system",
+    "choice2": "Compiler",
+    "choice3": "Loader",
+    "choice4": "Assembler",
+    "answer": 1
+  },
+  {
+    "question": "The purest form of iron is",
+    "choice1": "steel",
+    "choice2": "wrought iron ",
+    "choice3": "pig iron",
+    "choice4": "nickel steel",
+    "answer": 2
+  },
+  {
+    "question": "Junk e-mail is also called ______",
+    "choice1": "Spoof",
+    "choice2": "Sniffer script",
+    "choice3": "Spam",
+    "choice4": "Spool",
+    "answer": 3
+  },
+  {
+    "question": "Hydrogen bomb is based on the principle of",
+    "choice1": "nuclear fission",
+    "choice2": "artificial radioactivity",
+    "choice3": "natural radioactivity",
+    "choice4": "nuclear fusion",
+    "answer": 4
+  },
+  {
+    "question": "The blue colour of the clear sky is due to",
+    "choice1": "Reflection of light",
+    "choice2": "Diffraction of light",
+    "choice3": "Dispersion of light",
+    "choice4": "Refraction of light",
+    "answer": 3
+  },
+  {
+    "question": "Which foreign country is closest to Andaman Islands",
+    "choice1": "Sri Lanka",
+    "choice2": "Indonesia",
+    "choice3": "natural radioactivity",
+    "choice4": "Myanmar",
     "answer": 4
   }
 ]

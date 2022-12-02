@@ -1,6 +1,8 @@
 const question = document.getElementById("question");
 const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById("score");
+const game = document.getElementById("game");
+const loader = document.getElementById("loader");
 
 // Get choices and store them in array
 const choices = Array.from(document.getElementsByClassName("choice-text"));
@@ -18,6 +20,10 @@ let availableQuesions = [];
 
 // Every question is an object => objects stored in array
 let questions = [];
+
+// CONSTANTS
+const CORRECT_REWARD = 10;
+const MAX_QUESTIONS = 5;
 
 // fetch() = starts the process of fetching a resource from a server.
 // Returns a Promise
@@ -37,10 +43,6 @@ fetch("questions.json")
     console.error(err);
   });
 
-// CONSTANTS
-const CORRECT_REWARD = 10;
-const MAX_QUESTIONS = 3;
-
 // START GAME
 startGame = () => {
   // Reset again(just in case something goes wrong)
@@ -51,6 +53,10 @@ startGame = () => {
   availableQuesions = [...questions];
 
   getNewQuestion();
+
+  // Loader
+  game.classList.remove("hidden");
+  loader.classList.add("hidden");
 };
 
 // GET NEW QUESTION
