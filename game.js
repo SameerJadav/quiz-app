@@ -65,6 +65,10 @@ startGame = () => {
 getNewQuestion = () => {
   // End game
   if (availableQuesions === 0 || questionCounter >= MAX_QUESTIONS) {
+    // Adding most recent score in local storage
+    localStorage.setItem("recentScore", score);
+
+    // Go to end game page
     return window.location.assign("/end.html");
   }
 
